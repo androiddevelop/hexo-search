@@ -1,0 +1,22 @@
+{
+  "name": "hexo-search-data-plugin",
+  "version": "0.0.7",
+  "main": "index.js",
+  "description": "Generate JSON data from a hexo blog for search",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/androiddevelop/hexo-search.git"
+  },
+  "keywords": [
+    "hexo",
+    "json",
+    "templating",
+    "hexo-generator"
+  ],
+  "author": "yuedong.li (app@codeboy.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/androiddevelop/hexo-search/issues"
+  },
+  "homepage": "http://codeboy.me"
+}
