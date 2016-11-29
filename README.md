@@ -40,7 +40,7 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 
 3. 在当前主题的`layout/_partial/after-footer.ejs` 中的末尾加入 `cb-footer-add.html` 中的内容即可, 添加完毕后 `cb-footer-add.html` 文件可以删除。
 
-> 如果主题不存在`after-footer.ejs`文件，可以添加在`footer.ejs`中
+> 如果主题不存在`after-footer.ejs`文件，也可以添加在`footer.ejs`中。
 
 
 ### 注意事项
