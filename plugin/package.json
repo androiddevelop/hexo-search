@@ -1,6 +1,6 @@
 {
   "name": "hexo-search-data-plugin",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "main": "index.js",
   "description": "Generate JSON data from a hexo blog for search",
   "repository": {
