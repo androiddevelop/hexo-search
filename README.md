@@ -49,8 +49,13 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 
 2. 默认联想8个，如果需要更多的话，请检索 `bootstrap3-typeahead.min.js` 中的**items:8**, 将**8**替换成自己需要的数值。
 
+3. 文章标题请不要使用回车等符号，回车等符号会造成json解析错误。
+
 ### 更新历史
 
+#### v1.0.1
+
+- 添加错误console输出。搜索没提示，看console。
 
 #### v1.0.0
 
