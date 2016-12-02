@@ -23,6 +23,12 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 	```
 	npm install hexo-search-data-plugin --save
 	```
+	
+	或者在`package.json`中添加一下依赖：
+	
+	```
+	"hexo-search-data-plugin":"^1.0.0"
+	```
 
 2. 将search目录放至于hexo主题的`source`文件夹下，其中search目录结构如下:
 
