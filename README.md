@@ -29,6 +29,7 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 	```
 	"hexo-search-data-plugin":"^1.0.0"
 	```
+	之后执行`npm update`即可
 
 2. 将search目录放至于hexo主题的`source`文件夹下，其中search目录结构如下:
 
