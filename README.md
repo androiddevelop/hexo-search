@@ -1,6 +1,8 @@
 # Hexo-Search
 
-#### hexo博客搜索插件 
+#### **hexo博客搜索插件**
+
+[![npm](https://img.shields.io/npm/v/hexo-search-data-plugin.svg)](https://www.npmjs.com/package/hexo-search-data-plugin)
 
 jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddevelop/jekyll-search)
 
@@ -8,7 +10,7 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 
 ![hexo-search.jpg](hexo-search.jpg)
 
-也可以打开[http://codeboy.me](http://codeboy.me)查看效果
+也可以打开[http://www.codeboy.me](http://www.codeboy.me)查看效果
 
 ### 操作
 
@@ -27,7 +29,7 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 	或者在`package.json`中添加一下依赖：
 	
 	```
-	"hexo-search-data-plugin":"^1.0.0"
+	"hexo-search-data-plugin":"^1.1.0"
 	```
 	之后执行`npm update`即可
 
@@ -60,6 +62,10 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 
 ### 更新历史
 
+#### v1.1.0
+
+- 更新npm信息。
+
 #### v1.0.1
 
 - 添加错误console输出。搜索没提示，看console。
@@ -68,6 +74,24 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 
  - 支持hexo博客中进行文章搜索。
 
-> 有任何问题何以发送邮件到app@codeboy.me进行交流。
+## License
+
+```
+Copyright 2016 Yuedong.li
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
+
+> 有任何问题,欢迎发送邮件到app@codeboy.me交流.
 
 
