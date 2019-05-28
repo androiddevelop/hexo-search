@@ -10,7 +10,7 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 
 ![hexo-search.jpg](hexo-search.jpg)
 
-也可以打开[http://www.codeboy.me](http://www.codeboy.me)查看效果
+也可以打开[https://www.codeboy.me](https://www.codeboy.me)查看效果
 
 ### 操作
 
@@ -26,7 +26,7 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 	npm install hexo-search-data-plugin --save
 	```
 	
-	或者在`package.json`中添加一下依赖：
+	或者在 `package.json` 中添加一下依赖：
 	
 	```
 	"hexo-search-data-plugin":"^1.1.1"
@@ -47,16 +47,16 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 		    └── cb-search.js
 
 
-3. 在当前主题的`layout/_partial/after-footer.ejs` 中的末尾加入 `cb-footer-add.html` 中的内容即可, 添加完毕后 `cb-footer-add.html` 文件可以删除。
+3. 在当前主题的 `layout/_partial/after-footer.ejs` 中的末尾加入 `cb-footer-add.html` 中的内容即可, 添加完毕后 `cb-footer-add.html` 文件可以删除。
 
-> 如果主题不存在`after-footer.ejs`文件，也可以添加在`footer.ejs`中。
+> 如果主题不存在 `after-footer.ejs` 文件，也可以添加在 `footer.ejs` 中。
 
 
 ### 注意事项
 
-1. `bootstrap3-typeahead.min.js` 的引入必须在`jquery.min.js`引入之后!
+1. `bootstrap3-typeahead.min.js` 的引入必须在 `jquery.min.js` 引入之后!
 
-2. 默认联想8个，如果需要更多的话，请检索 `bootstrap3-typeahead.min.js` 中的**items:8**, 将**8**替换成自己需要的数值。
+2. 默认联想8个，如果需要更多的话，请检索 `bootstrap3-typeahead.min.js` 中的 **items:8** , 将 **8** 替换成自己需要的数值。
 
 3. 文章标题请不要使用回车等符号，回车等符号会造成json解析错误。
 
