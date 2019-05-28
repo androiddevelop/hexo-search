@@ -29,7 +29,7 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 	或者在`package.json`中添加一下依赖：
 	
 	```
-	"hexo-search-data-plugin":"^1.1.0"
+	"hexo-search-data-plugin":"^1.1.1"
 	```
 	之后执行`npm update`即可
 
@@ -61,6 +61,10 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 3. 文章标题请不要使用回车等符号，回车等符号会造成json解析错误。
 
 ### 更新历史
+
+#### v1.1.1
+
+- 支持标题中含有双引号。
 
 #### v1.1.0
 

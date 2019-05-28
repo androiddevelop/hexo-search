@@ -1,6 +1,6 @@
 {
   "name": "hexo-search-data-plugin",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "index.js",
   "description": "Generate JSON data from a hexo blog for search",
   "repository": {
@@ -18,5 +18,5 @@
   "bugs": {
     "url": "https://github.com/androiddevelop/hexo-search/issues"
   },
-  "homepage": "http://www.codeboy.me"
+  "homepage": "https://www.codeboy.me"
 }

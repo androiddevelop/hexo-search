@@ -6,7 +6,7 @@ function hexo_generator_json(locals) {
     var json = '{"code" : 0 ,"data" : [';
 
     locals.posts.each(function (post, i) {
-        json = json + '{ "title": "' + post.title;
+        json = json + '{ "title": "' + post.title.replace("\"", "");
         if (post.tags.length > 0) {
             json = json + ' - ';
         }
