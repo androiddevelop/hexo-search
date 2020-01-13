@@ -1,6 +1,6 @@
 # Hexo-Search 
 
-#### hexo博客搜索插件  [English manual](./blob/master/README_EN.md)
+#### hexo博客搜索插件  [English manual](./README_EN.md)
 
 [![npm](https://img.shields.io/npm/v/hexo-search-data-plugin.svg)](https://www.npmjs.com/package/hexo-search-data-plugin) 
 

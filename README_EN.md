@@ -1,6 +1,6 @@
 # Hexo-Search
 
-#### **hexo **plugin for blog search [中文使用指南](https://github.com/androiddevelop/hexo-search)
+#### hexo  plugin for blog search [中文使用指南](https://github.com/androiddevelop/hexo-search)
 
 [![npm](https://img.shields.io/npm/v/hexo-search-data-plugin.svg)](https://www.npmjs.com/package/hexo-search-data-plugin)
 
