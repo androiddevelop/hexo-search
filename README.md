@@ -1,8 +1,8 @@
-# Hexo-Search
+# Hexo-Search 
 
-#### **hexo博客搜索插件**
+#### hexo博客搜索插件  [English manual](./blob/master/README_EN.md)
 
-[![npm](https://img.shields.io/npm/v/hexo-search-data-plugin.svg)](https://www.npmjs.com/package/hexo-search-data-plugin)
+[![npm](https://img.shields.io/npm/v/hexo-search-data-plugin.svg)](https://www.npmjs.com/package/hexo-search-data-plugin) 
 
 jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddevelop/jekyll-search)
 
@@ -10,13 +10,15 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 
 ![hexo-search.jpg](hexo-search.jpg)
 
-也可以打开[https://www.codeboy.me](https://www.codeboy.me)查看效果
+### Demo
+
+[https://www.codeboy.me](https://www.codeboy.me)
 
 ### 操作
 
 1. 点击右下角图标进行搜索
 2. 双击ctrl键进行搜索或关闭
-3. 搜索页面点击右上角关闭按钮关闭搜索试图
+3. 搜索页面中点击右上角关闭按钮进行关闭
 
 ### 加入步骤
 
@@ -47,7 +49,7 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 		    └── cb-search.js
 
 
-3. 在当前主题的 `layout/_partial/after-footer.ejs` 中的末尾加入 `cb-footer-add.html` 中的内容即可, 添加完毕后 `cb-footer-add.html` 文件可以删除。
+3. 在当前主题的 `layout/_partial/after-footer.ejs` 中的末尾加入 `cb-footer-add.html` 中的内容即可, 添加完毕后, `cb-footer-add.html` 文件可以删除。
 
 > 如果主题不存在 `after-footer.ejs` 文件，也可以添加在 `footer.ejs` 中。
 
@@ -55,9 +57,7 @@ jekyll博客搜索插件请前往 [Jekyll-Search](https://github.com/androiddeve
 ### 注意事项
 
 1. `bootstrap3-typeahead.min.js` 的引入必须在 `jquery.min.js` 引入之后!
-
 2. 默认联想8个，如果需要更多的话，请检索 `bootstrap3-typeahead.min.js` 中的 **items:8** , 将 **8** 替换成自己需要的数值。
-
 3. 文章标题请不要使用回车等符号，回车等符号会造成json解析错误。
 
 ### 更新历史
